@@ -3,22 +3,22 @@
 class Plum < Formula
   desc "Small, fast, memory-safe programming language"
   homepage "https://plum.elixpo.com"
-  version "2.2.0"
+  version "2.3.0"
   license "Apache-2.0"
 
   on_macos do
-    url "https://github.com/plumlang/plumlang/releases/download/v2.2.0/plum-2.2.0-macos-universal.tar.gz"
-    sha256 "5061ba88303bb3518f2fef4b69d74198ca3e2dede704d9bf12f5879dacdf9194"
+    url "https://github.com/plumlang/plumlang/releases/download/v2.3.0/plum-2.3.0-macos-universal.tar.gz"
+    sha256 "fb5190ad7e7e00c70a2558e49ac7a946c6b67a1754a6f0961bee4671c591c996"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/plumlang/plumlang/releases/download/v2.2.0/plum-2.2.0-linux-x86_64.tar.gz"
-      sha256 "83da0d555b33462c39b34e8fd6791ef5ae349b9113a42f12917a143eb05aee94"
+      url "https://github.com/plumlang/plumlang/releases/download/v2.3.0/plum-2.3.0-linux-x86_64.tar.gz"
+      sha256 "86f4bb33872fa5b64c3ad15b76fb091cda4c3ef5d749436248fccc7b1a47bda0"
     end
     on_arm do
-      url "https://github.com/plumlang/plumlang/releases/download/v2.2.0/plum-2.2.0-linux-arm64.tar.gz"
-      sha256 "65e59cf19e370a4aa9758d049089ac4d28cb87f4c7bf75361d09e6be04e620e6"
+      url "https://github.com/plumlang/plumlang/releases/download/v2.3.0/plum-2.3.0-linux-arm64.tar.gz"
+      sha256 "77082cf0023bc05c636c90da125bfe3d24c0ce041a6559cbfac20e85644eeeec"
     end
   end
 
